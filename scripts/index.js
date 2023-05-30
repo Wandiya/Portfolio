@@ -1,11 +1,20 @@
 // toggle icon navbar 
-let menuIcon = document.querySelector('#menu-icon');
+// let menuIcon = document.querySelector('#menu-icon');
+// let navbar = document.querySelector('.navbar');
+
+// menuIcon.onclick = () => {
+//     menuIcon.classList.toggle('bx-x');
+//     navbar.classList.toggle('active');
+// }
+let menuIcon = document.querySelector('.bx-menu');
 let navbar = document.querySelector('.navbar');
 
-menuIcon.onclick = () => {
+menuIcon.addEventListener('click', () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
-}
+});
+
+
 
 
 // scroll section outline links
